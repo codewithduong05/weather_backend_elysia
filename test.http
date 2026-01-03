@@ -1,0 +1,14 @@
+GET http://localhost:3000/weather?city=Da Nang
+
+###
+GET http://localhost:3000/weather/Da Nang
+
+###
+POST http://localhost:3000/weather
+Content-Type: application/json
+
+{
+  "city": "Da Nang",
+  "temp": 30,
+  "condition": "Cloudy"
+}
