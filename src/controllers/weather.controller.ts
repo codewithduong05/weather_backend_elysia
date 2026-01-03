@@ -25,4 +25,16 @@ export class WeatherController {
 
     return this.service.createWeather(body);
   };
+
+  
+}
+
+
+  //  test perfoments
+export const getWeather = (city : string) => {
+  return WeatherService.getCurrent(city)
+}
+
+export const getWeatherHistory = (city :string) => {
+  return WeatherService.getHistory(city)
 }

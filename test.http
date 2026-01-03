@@ -12,3 +12,6 @@ Content-Type: application/json
   "temp": 30,
   "condition": "Cloudy"
 }
+
+### Test api performent
+GET http://localhost:3000/health
